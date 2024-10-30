@@ -1,0 +1,299 @@
+.light {
+    opacity: 50%;
+    background-color: black;
+    height: 65px;
+    width: 76px;
+    margin-top: 12%;
+    margin-left: 13%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 30px white;
+}
+
+.guide {
+    width: 100vw;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 164);
+    margin-top: 20px;
+    text-shadow: 0 0 10px white;
+}
+
+.lamp {
+    /* background-color: black; */
+    background-image: url("lamp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    display: inline-block;
+    margin: auto;
+    padding: 3vmin;
+}
+
+.container {
+    background-color: black;
+    width: 100vw;
+}
+
+.board {
+    background-image: linear-gradient(45deg, rgb(91, 91, 91), white, rgb(170, 168, 168), rgb(113, 113, 113));
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.board button {
+    padding: 2vw;
+    margin-left: 10vw;
+    color: white;
+    background-image: linear-gradient(135deg, rgb(91, 91, 91), rgb(56, 56, 56), rgb(7, 7, 7), rgb(6, 3, 18));
+}
+
+.VIBGYOR {
+    animation: vibgyor 7s infinite ease-in-out;
+}
+
+@keyframes vibgyor {
+    0% {
+        background-color: red;
+        box-shadow: 0 0 30px red;
+        opacity: 100%;
+    }
+
+    14% {
+        background-color: violet;
+        box-shadow: 0 0 30px violet;
+        opacity: 100%;
+    }
+
+    29% {
+        background-color: rgb(149, 0, 255);
+        box-shadow: 0 0 30px rgb(146, 0, 250);
+        opacity: 100%;
+    }
+
+    43% {
+        background-color: blue;
+        box-shadow: 0 0 30px blue;
+        opacity: 100%;
+    }
+
+    57% {
+        background-color: rgb(3, 255, 3);
+        box-shadow: 0 0 30px rgb(0, 255, 0);
+        opacity: 100%;
+    }
+
+    71% {
+        background-color: yellow;
+        box-shadow: 0 0 30px yellow;
+        opacity: 100%;
+    }
+
+    86% {
+        background-color: orangered;
+        box-shadow: 0 0 30px orangered;
+        opacity: 100%;
+    }
+
+    100% {
+        background-color: red;
+        box-shadow: 0 0 30px red;
+        opacity: 100%;
+    }
+}
+
+.v {
+    background-color: violet;
+    animation: V 1s infinite ease-in-out;
+}
+
+.i {
+    background-color: rgb(149, 0, 255);
+    animation: I 1s infinite ease-in-out;
+}
+
+.b {
+    background-color: blue;
+    animation: B 1s infinite ease-in-out;
+}
+
+.g {
+    background-color: rgb(0, 249, 0);
+    animation: G 1s infinite ease-in-out;
+}
+
+.y {
+    background-color: yellow;
+    animation: Y1 1s infinite ease-in-out;
+}
+
+.o {
+    background-color: orangered;
+    animation: O 1s infinite ease-in-out;
+}
+
+.r {
+    background-color: red;
+    animation: R 1s infinite ease-in-out;
+}
+
+@keyframes V {
+    50% {
+        box-shadow: 0 0 30px violet;
+        opacity: 100%;
+    }
+}
+
+@keyframes I {
+    50% {
+        box-shadow: 0 0 30px rgb(149, 0, 255);
+        opacity: 100%;
+    }
+}
+
+@keyframes B {
+    50% {
+        box-shadow: 0 0 30px blue;
+        opacity: 100%;
+    }
+}
+
+@keyframes G {
+    50% {
+        box-shadow: 0 0 30px rgb(0, 255, 0);
+        opacity: 100%;
+    }
+}
+
+@keyframes Y1 {
+    50% {
+        box-shadow: 0 0 30px yellow;
+        opacity: 100%;
+    }
+}
+
+@keyframes O {
+    50% {
+        box-shadow: 0 0 30px orangered;
+        opacity: 100%;
+    }
+}
+
+@keyframes R {
+    50% {
+        box-shadow: 0 0 30px red;
+        opacity: 100%;
+    }
+}
+
+
+.vs {
+    animation: Vs 10s infinite ease-in-out;
+}
+
+.is {
+    animation: Is 10s infinite ease-in-out;
+}
+
+.bs {
+    animation: Bs 10s infinite ease-in-out;
+}
+
+.gs {
+    animation: Gs 10s infinite ease-in-out;
+}
+
+.ys {
+    animation: Y1s 10s infinite ease-in-out;
+}
+
+.os {
+    animation: Os 10s infinite ease-in-out;
+}
+
+.rs {
+    animation: Rs 10s infinite ease-in-out;
+}
+
+@keyframes Vs {
+    50% {
+        background-color: violet;
+        box-shadow: 0 0 30px violet;
+        opacity: 100%;
+    }
+}
+
+@keyframes Is {
+    50% {
+        background-color: rgb(149, 0, 255);
+        box-shadow: 0 0 30px rgb(149, 0, 255);
+        opacity: 100%;
+    }
+}
+
+@keyframes Bs {
+    50% {
+        background-color: blue;
+        box-shadow: 0 0 30px blue;
+        opacity: 100%;
+    }
+}
+
+@keyframes Gs {
+    50% {
+        background-color: rgb(0, 249, 0);
+        box-shadow: 0 0 30px rgb(0, 255, 0);
+        opacity: 100%;
+    }
+}
+
+@keyframes Y1s {
+    50% {
+        background-color: yellow;
+        box-shadow: 0 0 30px yellow;
+        opacity: 100%;
+    }
+}
+
+@keyframes Os {
+    50% {
+        background-color: orangered;
+        box-shadow: 0 0 30px orangered;
+        opacity: 100%;
+    }
+}
+
+@keyframes Rs {
+    50% {
+        background-color: red;
+        box-shadow: 0 0 30px red;
+        opacity: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .lamp {
+        margin: auto;
+        padding: 3vmin;
+    }
+
+    .board button {
+        padding: 2.5vw;
+        margin: 2vw;
+        display: inline-block;
+        color: white;
+        background-image: linear-gradient(135deg, rgb(91, 91, 91), rgb(56, 56, 56), rgb(7, 7, 7), rgb(6, 3, 18));
+    }
+}
